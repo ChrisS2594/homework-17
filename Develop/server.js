@@ -4,8 +4,8 @@ var mongoose = require("mongoose");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
-const db = require("./models");
-const app = express();
+const db = require("./model");
+
 
 app.use(logger("dev"));
 app.use(express.urlencoded({extended: true}));
